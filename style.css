@@ -1,5 +1,6 @@
 html{
   position: relative;
+
 }
 body{
   margin: 0;
@@ -11,6 +12,8 @@ body{
   display: flex;
   justify-content: center;
   align-self: center;
+  margin-top: 100px;
+;
 }
 
 
@@ -26,11 +29,11 @@ body{
   margin:10px; 
   height: auto;
   color: yellowgreen;
-  margin-top: 100px;
   
-
   
 }
+
+
 .fonts{
   font-size: 40px;
   font-display: black;
