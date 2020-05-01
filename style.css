@@ -1,0 +1,59 @@
+html{
+  position: relative;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(61, 57, 57);
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
+
+#format{
+  background-color: black;
+  width: 50rem;
+  padding: 3rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin:10px; 
+  height: auto;
+  color: yellowgreen;
+  box-shadow: 20px 20px 10px gray;
+  
+
+  
+}
+.fonts{
+  font-size: 40px;
+  font-display: black;
+ 
+}
+
+.bg{ position: relative;
+  background-color: yellowgreen;
+
+}
+
+
+
+
+
+
+
+
+section{
+  padding: 120px 0 120px
+}
+
+#random-name{ 
+  margin: 2rem 0;
+  
+}
