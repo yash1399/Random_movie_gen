@@ -1,64 +1,80 @@
-html{
-  position: relative;
 
-}
-body{
-  margin: 0;
-  padding: 0;
-  background: rgb(61, 57, 57);
-  
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin-top: 100px;
+html,body{
   font-family: 'Josefin Sans', sans-serif;
-
-;
+  color:rgb(28, 218, 28);
+  
 }
-
-
-
-#format{
+.container{
+  background: rgb(36, 35, 35);
+  margin-bottom: inherit;
+}
+#wrapper{
+  padding-top: 5px;
+  padding-bottom: 2px;
+  width: 100%;
+  height: 100%;
+  border: transparent ;
+  border-radius: 0.2%;
   background-color: black;
-  width: 50rem;
-  padding: 3rem;
-  margin: 1rem auto;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  margin:10px; 
-  height: auto;
-  color: yellowgreen;
-  
-  
-}
-
-
-.fonts{
-  font-size: 40px;
-  font-display: black;
- 
-}
-
-.bg{ position: relative;
-  background-color: yellowgreen;
+   margin-top: 30px;
 
 }
-
-
-
-
-
-
-
 
 section{
   padding: 120px 0 120px
 }
+.display{
+  margin-top: 5px;
+}
+.btn{
 
-#random-name{ 
-  margin: 2rem 0;
+  background-color: rgb(28, 218, 28);
+  margin:100px auto;
+  width: 300px;
   
+}
+.lea{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .btn{margin:120px auto;}
+    section{
+      padding: 220px 0 20px;
+    }
+    .bottom{
+      margin-bottom: 30px;
+    }
+    
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .btn{
+      margin:10px auto;
+    }
+    section{
+      padding: 30px 0 20px;
+    }
+    #wrapper{
+      margin-top: 25px;
+
+
+    }
+    .bottom{
+      margin-top:20px;
+    }
+
 }
