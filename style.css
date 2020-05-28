@@ -6,13 +6,15 @@ body{
   margin: 0;
   padding: 0;
   background: rgb(61, 57, 57);
-  font-family: "Poppins", sans-serif;
+  
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-self: center;
   margin-top: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+
 ;
 }
 
